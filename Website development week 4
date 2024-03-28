@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin and Padding Features</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jasmine Imbuka</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hi, I'm Jasmine Imbuka. I'm a student at power learning project and am excited to learn web development and improve my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>Contact Information</h2>
+        <p>Email: jasmineimbuka230@gmail.com</p>
+        <p>Social Media:
+            <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
+#css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#introduction {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    col
